@@ -1,22 +1,84 @@
 aid: gustav
 name: Gustav
-description: Gustav is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gustav is a vendor management platform (VMS) and sub-vendor marketplace for
+  the staffing industry, enabling staffing firms to source talent from their
+  trusted vendor network, share open jobs, collect and screen candidate
+  submissions, run standardized hiring pipelines, schedule interviews, message
+  vendors, and track performance in one place. Vendors organize into "Gustav
+  Circles" with tiered job-release controls, and candidate submissions sync to
+  applicant tracking systems including Bullhorn and JobDiva. Originally a
+  Speedinvest-backed startup, Gustav is now operated by the member-owned Fuse
+  Cooperative (a Colorado Limited Cooperative Association) and bills itself as
+  the staffing industry's largest sub-vendor marketplace. Gustav is a SaaS web
+  application; it does not currently publish a public developer API, OpenAPI
+  specification, or SDKs — integrations are delivered through the Bullhorn and
+  JobDiva marketplaces.
 url: https://raw.githubusercontent.com/api-evangelist/gustav/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.hellogustav.com/gustav-favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Staffing
+- Vendor Management
+- VMS
+- Recruiting
+- Marketplace
+- Contingent Workforce
+- HR Tech
+- ATS Integration
 apis: []
+common:
+- type: Website
+  url: https://www.gustav.app/
+- type: About
+  url: https://www.gustav.app/about-us
+- type: Features
+  url: https://www.gustav.app/features
+- type: Support
+  url: https://help.hellogustav.com/en/
+- type: HelpCenter
+  url: https://help.hellogustav.com/en/
+- type: SignUp
+  url: https://app.hellogustav.com/signup
+- type: Login
+  url: https://app.hellogustav.com/login
+- type: TermsOfService
+  url: https://www.gustav.app/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.gustav.app/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fusegustav
+- type: Integrations
+  url: https://www.gustav.app/bullhorn-integration
+- type: DomainSecurity
+  url: security/gustav-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
